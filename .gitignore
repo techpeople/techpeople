@@ -1,0 +1,17 @@
+node_modules
+public
+.tmp
+.idea
+client/bower_components
+dist
+/server/config/local.env.js
+npm-debug.log
+*.log
+logs
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.grunt
+.lock-wscript

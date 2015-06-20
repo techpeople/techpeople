@@ -1,0 +1,275 @@
+/*
+	Navbar styles
+*/
+
+.navbar.navbar-default {
+	background-color: #333333;
+	color: #fcfcfc;
+	border: none;
+}
+.navbar-brand {
+	text-transform: capitalize;
+	font-family: 'League Spartan', 'Oswald', sans-serif;
+	font-size: 24px;
+}
+.nav-link {
+	font-family: 'League Spartan', 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.nav-link > a {
+	color: #fcfcfc;
+}
+
+.panel-dark-gray {
+	background-color: transparent;
+}
+
+/*
+	Typography styles
+*/
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'League Spartan', 'Georgia', sans-serif;
+	text-transform: uppercase;
+}
+.heading-xl {
+	font-size: 6.854em;
+	text-transform: uppercase;
+}
+.heading-lg {
+	font-size: 4.236em;
+	text-transform: uppercase;
+}
+.heading-md {
+	font-size: 2.618em;
+	text-transform: uppercase;
+}
+.heading-sm {
+	font-size: 1.618em;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 1em;
+	line-height: 
+}
+
+.p-light-gray {
+	color: #cccccc;
+}
+
+.thing-form {
+    margin: 20px 0;
+}
+
+.banner-fs {
+    border-bottom: none;
+    margin-top: -20px;
+}
+.header-lg {
+	border-top: solid 10px #0099cc;
+	border-bottom: solid 10px #0099cc;
+	min-height: 768px;	
+	padding-top: 80px;
+}
+.header-md {
+	min-height: 522px;
+}
+.header-sm {
+	min-height: 323px;
+}
+.section-lg {
+	min-height: 768px;	
+}
+.section-md {
+	min-height: 522px;
+}
+.section-sm {
+	min-height: 323px;
+	max-height: 522px;
+	padding-top: 20px;
+}
+
+#banner h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+header {
+	height: 728px;
+	color: #ffffff;
+}
+
+.hero-unit {
+    position: relative;
+    padding: 30px 15px;
+    color: #F5F5F5;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    background: #4393B9;
+}
+
+#call-to-action {
+	background-color: #cccccc;
+}
+
+/*
+	Custom background styles
+*/
+.bg-dark-gray {
+	background-color: #333333;
+}
+
+.light-gray-bg {
+	background-color: #cccccc;
+}
+
+/*
+	Custom Box styles
+*/
+.box > .icon { text-align: center; position: relative; }
+.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #0099cc; vertical-align: middle; }
+.box > .icon:hover > .image { background: #cccccc; }
+.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+.box > .icon:hover > .image > i { color: white !important; }
+.box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; }
+.box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
+.box > .icon > .info > h3.title { font-family: "Roboto",sans-serif !important; font-size: 16px; color: #222; font-weight: 500; }
+.box > .icon > .info > p { font-family: "Roboto",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
+.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
+.box > .icon > .info > .more a { font-family: "Roboto",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+.box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
+.box .space { height: 30px; }
+
+/*
+	Iconbox
+*/
+
+/*
+ Custom form controls
+*/
+.form-control {
+	border: solid 2px #cccccc;
+}
+.iconcontainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.iconbox {
+  background: #ffffff;
+  background-color: #ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  padding: 20px 25px;
+  text-align: right;
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+.iconbox-icon {
+  background-color: #008EED;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin-top: -70px;
+}
+.iconbox-icon span {
+  color: #fff;
+  font-size: 42px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 29px;
+  text-align: center;
+  vertical-align: middle;
+}
+.featureinfo h4 {
+  font-size: 26px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.featureinfo > p {
+  color: #000000;
+  font-size: 16px;
+  padding-top: 4px;
+  text-align: left;
+}
+/*
+	Custom carousel styles
+*/
+.carousel-indicators .active { 
+	background: #31708f; 
+} 
+.content{ 
+	margin-top:20px; 
+} 
+.adjust1{ float:left; width:100%; margin-bottom:0; } 
+.adjust2{ margin:0; } 
+.carousel-indicators li{ border :1px solid #ccc; } 
+.carousel-control{ color:#31708f; width:5%; } 
+.carousel-control:hover, 
+.carousel-control:focus{ color:#31708f; } 
+.carousel-control.left, .carousel-control.right { background-image: none; } 
+.media-object{ margin:auto; margin-top:15%; } @media screen and (max-width: 768px) { .media-object{ margin-top:0; } }
+
+/*
+	Button custom styles
+*/
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+.btn-default {
+  text-shadow: 0px 1px 0px #FFF;
+  background-image: linear-gradient(to bottom, #FFF 0px, #E0E0E0 100%);
+  background-repeat: repeat-x;
+  border-color: #CCC;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 1px rgba(0, 0, 0, 0.075);
+}
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #e0e0e0;
+  background-position: 0 -15px
+}
+/*
+	Custom footer styles
+*/
+footer {
+    text-align: center;
+    padding: 30px 0;
+    margin: 0px;
+    border-top: 5px solid #0099cc;
+		background-color: #333333;
+}
