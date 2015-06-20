@@ -1,15 +1,17 @@
-'use strict';
+(function () {
+	'use strict';
 
-angular.module('techPeopleIoApp', [
+	angular.module('techPeopleIoApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
   'ui.router',
   'ui.bootstrap'
 ])
-  .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
-    $urlRouterProvider
-      .otherwise('/');
+		.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+			$urlRouterProvider
+				.otherwise('/');
 
-    $locationProvider.html5Mode(true);
-  });
+			$locationProvider.html5Mode(true);
+		});
+}());
