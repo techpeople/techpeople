@@ -24,6 +24,7 @@
       <!-- injector:css -->
       <link rel="stylesheet" href="app/app.css">
       <link rel="stylesheet" href="app/main/main.css">
+      <link rel="stylesheet" href="app/students/students.css">
       <link rel="stylesheet" href="app/youth-dev-academy/youth-dev-academy.css">
       <link rel="stylesheet" href="components/modal/modal.css">
       <!-- endinjector -->
@@ -62,14 +63,20 @@
       <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
       <script src="bower_components/lodash/dist/lodash.compat.js"></script>
       <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+      <script src="bower_components/firebase/firebase.js"></script>
+      <script src="bower_components/angularfire/dist/angularfire.js"></script>
       <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js({.tmp,client}) app/app.js -->
         <script src="app/app.js"></script>
           <!-- injector:js -->
+          <script src="app/auth/auth.service.js"></script>
           <script src="app/main/main.controller.js"></script>
           <script src="app/main/main.js"></script>
+          <script src="app/students/students.controller.js"></script>
+          <script src="app/students/students.js"></script>
+          <script src="app/users/users.service.js"></script>
           <script src="app/youth-dev-academy/youth-dev-academy.controller.js"></script>
           <script src="app/youth-dev-academy/youth-dev-academy.js"></script>
           <script src="components/footer/footer.controller.js"></script>
